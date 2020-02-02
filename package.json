@@ -1,0 +1,17 @@
+{
+  "name": "serverinstagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "marat",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^2.1.0"
+  },
+  "engines": {
+    "node": "12.13.0"
+  }
+}
