@@ -6,7 +6,8 @@ const PORT = process.env.PORT || 80
  const start = async () => {
     
     await ig.initialize();
-    await ig.login('89625452154', '6892859694marat');
+    // log and pass
+    await ig.login('login...', 'pass...');
     const www = await ig.data()
     return www
 }

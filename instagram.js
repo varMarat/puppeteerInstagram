@@ -40,7 +40,7 @@ const instagram = {
         await instagram.page.waitFor(1000)
         await instagram.page.click('button[type="submit"]');
 
-        await instagram.page.waitFor(10000)
+        await instagram.page.waitFor(4000)
         await instagram.page.waitFor('a > svg[aria-label="Профиль"]')
 
         await instagram.page.goto('https://www.instagram.com/accounts/activity')
